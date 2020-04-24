@@ -11,8 +11,6 @@ function App(){
         <div>
             <div>
                 <Header/>
-            </div>
-            <div>
                 <Body/>
             </div>
         </div>
