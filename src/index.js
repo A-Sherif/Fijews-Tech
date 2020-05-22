@@ -32,7 +32,7 @@ export default function Index() {
                 <Link to="/about" className='Link' >Our Church</Link>
             </li>
             <li>
-              <Link to="/"><img src={logo} width='50' height='50'/></Link>
+              <Link to="/"><img src={logo} width='50' height='50' alt=''/></Link>
             </li>
             <li>
                 <Link to="/events" className='Link'>Events</Link>
