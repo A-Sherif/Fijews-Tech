@@ -2,13 +2,14 @@ import React from 'react';
 
 import '../styles/story.css'
 
+
 const Story=() =>{
     return(
         <section className='story'>
             <article>
                 <h1>Who We Are</h1>
                 <p>
-                    Precious Blood Congregation is a small community church which is dedicated to imparting the best Christian teaaching and helping members of the community with any problem they face.
+                    Precious Blood Congregation is a small community church which is dedicated to imparting the best Christian teaching and helping members of the community with any problem they face.
                     Our slogan, 'Adehye mogya bi akasa ama me ', which means 'The precious blood has spoken on my behalf'. This slogan was obatined from'The blood will speak on your behalf' <span style ={{fontWeight: 'bold'}}>Heb 12:24</span> .
                 </p>
             </article>

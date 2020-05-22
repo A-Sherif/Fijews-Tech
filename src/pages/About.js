@@ -8,8 +8,8 @@ import Story from '../components/story'
 function About(){
     return(
         <div>
-            <Quote/>
             <Story/>
+            <Quote/>
         </div>
     )
 }
