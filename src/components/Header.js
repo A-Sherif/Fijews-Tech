@@ -1,24 +1,28 @@
 import React from 'react';
-import '../styles/header.css'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+
+import '../styles/header.css';
 
 const Header = () =>{
     return(
-        <header>
-            <nav>
-                <ul>
-                    <li><a href='index.html'><ul></ul>Home</a></li>   
-                    <li><a href='about.html'><ul></ul>Our Church</a></li>
-                    <li><a href='events.html'><ul></ul>Events</a></li>   
-                    <li><a href='blog.html'><ul></ul>Blog</a></li> 
-                </ul>
-            </nav>
+        <Router>
+            <header>
+                <nav>
+                    <ul>
+                        <li><Link to= "/">Home</Link></li>   
+                        <li><Link to= "/About">Our Church</Link></li>
+                        <li><Link to="/Events">Events</Link></li>   
+                        <li><Link to="/Blog">Blog</Link></li> 
+                    </ul>
+                </nav>
 
-            <hgroup>
-                <h1>Our Church</h1>
-                <p>The place where God dwells</p>
-                <a href='about.html'>Learn More</a>
-            </hgroup>
-        </header>
+            </header>
+        </Router>
     )
 }
 export default Header;
