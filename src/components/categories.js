@@ -10,15 +10,15 @@ const Selections=[
         button:'+ View Our Events',
         destination: 'Events'
     },{
-        title:'Counselling',
-        message:' We exist to represent Christ to our community and world so that they might see Jesus and realize all that God has planned for them! ',
+        title:'Teaching',
+        message:' Educating the community with the best in Christian values to empower the youth.',
         button:'+ Read more',
-        destination: 'Blog'
+        destination: 'About'
     },{
         title:'Sermons',
         message:'We exist to represent Christ to our community and world so that they might see Jesus and realize all that God has planned for them!',
         button:'+ Read more',
-        destination: 'About'
+        destination: 'Blog'
     }
 ]
 
